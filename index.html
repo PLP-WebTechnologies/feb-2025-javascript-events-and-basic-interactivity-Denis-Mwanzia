@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia">
+    <meta name="description" content="JS Event Handling Playground">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Handling Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JS Interaction Playground</h1>
+
+    <!-- Buttons -->
+    <button id="clickBtn">Click Me!</button> <br>
+    <button id="hoverBtn">Hover Over Me</button> <br>
+    <button id="secretBtn">Double Click Me</button> <br>
+
+    <!-- Keypress -->
+    <input type="text" id="keyInput" placeholder="Type something..."> <br>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+        <h2>Cats</h2>
+        <img id="slideImage" src="./img/cat1.jpg" alt="Slideshow Image">
+        <button id="nextSlide">Next</button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab" data-tab="1">Tab 1</button>
+        <button class="tab" data-tab="2">Tab 2</button>
+        <div id="tabContent1" class="tabContent">Content for Tab 1</div>
+        <div id="tabContent2" class="tabContent">Content for Tab 2</div>
+    </div>
+
+    <!-- Form -->
+    <form id="myForm">
+        <h1>Registration Form</h1>
+        <input type="text" id="name" placeholder="Name" required> <br>
+        <input type="email" id="email" placeholder="Email" required> <br>
+        <input type="password" id="password" placeholder="Password" required> <br>
+        <button type="submit">Submit</button>
+        <div id="formFeedback"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

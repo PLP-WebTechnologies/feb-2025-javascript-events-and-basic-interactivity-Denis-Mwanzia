@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #add8e6;
+}
+
+.tabContent {
+    display: none;
+}
+
+.slideshow {
+    margin: 20px auto;
+}
+
+.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
